@@ -8,7 +8,7 @@
   "description": "A to do list web application",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node server/index.js",
+    "start": "NODE_ENV=production source ../env.sh && node server/index.js",
     "dev": "nodemon server/index.js"
   },
   "author": "",
